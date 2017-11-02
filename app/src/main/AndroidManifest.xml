@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ToDoList"
+            android:label="@string/title_activity_to_do_list"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Achievements"
+            android:label="@string/title_activity_achievements"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
